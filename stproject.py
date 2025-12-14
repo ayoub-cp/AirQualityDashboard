@@ -35,7 +35,7 @@ def load_data(path):
     df.reset_index(drop=True, inplace=True)
     return df
 
-df = load_data("C:/Users/ASUS/Desktop/py project/data/AirQualityUCI.csv")
+df = load_data("data/AirQualityUCI.csv")
 
 # -----------------------------
 # INTRODUCTION ET APERCU DES DONNEES
